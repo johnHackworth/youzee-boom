@@ -71,7 +71,7 @@ var yz = {
     }, 150000*(1+Math.random()))
   },
   bindHover: function() {
-    $('#people .person').on('mouseover', function(e) {
+    $('#people .person').on('mouseover, click', function(e) {
       var position = $(e.currentTarget).data('position').split(',');
       yz.vis.map.setCenter(position.reverse());
     })
