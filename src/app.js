@@ -9,15 +9,15 @@ var yz = {
     query: 'SELECT * FROM {{table_name}}',
     tile_style: '@font_reg:"DejaVu Sans Book";' +
     "#{{table_name}} {marker-fill:red; marker-line-color:#000; marker-line-color: white; "+
-    "marker-line-width: 3; marker-line-opacity:1; marker-width:10;  marker-allow-overlap: true}" +
+    "marker-line-width: 3; marker-line-opacity:1; marker-width:20;  marker-allow-overlap: true}" +
     "#{{table_name}}[name='Youzee'] {marker-fill:black; marker-width:3;}" +
     "#{{table_name}}[name='Tuenti'] {marker-fill:#00F}" +
     "#{{table_name}}[name='Vizzuality'] {marker-fill:#CF3}" +
     "#{{table_name}}[name='Yunait'] {marker-fill:yellow}" +
     "#{{table_name}}[name='Funddy'] {marker-fill:#77F}" +
-    "#{{table_name}}[name='Spartan Bits'] {marker-fill:#FFDFDF}" +
-    "#{{table_name}}[name='Atlassian'] {marker-fill:#59F}" +
-    "#{{table_name}}[name='Fever'] {marker-fill:#666}" +
+    "#{{table_name}}[name='Spartanbits'] {marker-fill:#FFDFDF}" +
+    "#{{table_name}}[name='Atlassian (Australia!)'] {marker-fill:#59F}" +
+    "#{{table_name}}[name='Fever (Barcelona)'] {marker-fill:#666}" +
     "#{{table_name}}[name='Fjord'] {marker-fill:#FFF}" +
     "#{{table_name}}::labels[name!='Youzee']  { "+
     "text-name:[name]; "+
