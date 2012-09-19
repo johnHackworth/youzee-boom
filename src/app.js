@@ -88,7 +88,7 @@ var yz = {
       }
     }
 
-    setTimeout(this.perrify.bind(this), 60000*(1+Math.random()))
+    setTimeout(this.perrify.bind(this), 150000*(1+Math.random()))
   },
   perrify: function() {
     var numberOfPeople = $('#people .person').length;
@@ -98,7 +98,7 @@ var yz = {
       $oneOfThem.find('img').attr('src', 'http://images.wikia.com/phineasandferb/images/7/77/Perry_dancing.gif');
       $oneOfThem.find('span').html('@perry');
     }
-    setTimeout(this.perrify.bind(this), 60000*(1+Math.random()))
+    setTimeout(this.perrify.bind(this), 150000*(1+Math.random()))
   },
   bindHover: function() {
     $('#people .person').on('mouseover click', function(e) {
