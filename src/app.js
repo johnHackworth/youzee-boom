@@ -66,7 +66,7 @@ var yz = {
     }
 
     setTimeout(function() {
-      $('#people img').attr('src', 'http://upload.wikimedia.org/wikipedia/en/d/dc/Perry_the_Platypus.png');
+      $('#people img').attr('src', 'http://images.wikia.com/phineasandferb/images/7/77/Perry_dancing.gif');
       $('#people span').html('@perry');
     }, 150000*(1+Math.random()))
   },
