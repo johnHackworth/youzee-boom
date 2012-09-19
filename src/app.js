@@ -64,6 +64,11 @@ var yz = {
         $peopleContainer.append('<div class="person" data-position="'+companies[i].location+'"><img src="'+companies[i].people[j].image+'"></img><span>@'+companies[i].people[j].name+'</span></div>');
       }
     }
+
+    setTimeout(function() {
+      $('#people img').attr('src', 'http://upload.wikimedia.org/wikipedia/en/d/dc/Perry_the_Platypus.png');
+      $('#people span').html('@perry');
+    }, 150000*(1+Math.random()))
   },
   bindHover: function() {
     $('#people .person').on('mouseover', function(e) {
