@@ -66,7 +66,7 @@ var yz = {
   mapConfig: {
     title: "The Youzee Diaspora",
     description: "Youzee engineering & design team's new jobplaces, after the crash of 2012 summer. If someone else already has found a new position and I'm not aware of it, please tell me, you know where to find me!  :)",
-    center: [40.42940695450031, -3.7007617950439453],
+    center: [40.429537623968095, -3.6900758743286133],
     zoom: 14,
     maxZoom: 20,
     minZoom: 11,
