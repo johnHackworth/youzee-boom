@@ -117,7 +117,7 @@ var yz = {
 var companies = [
   {color: "yellow", location:[-3.692404, 40.428264], company: 'yunait', people: [{name: 'leidan', image: 'https://si0.twimg.com/profile_images/1131270006/Avatar2010_medium_reasonably_small.jpg'}]},
   {color: "#FFDFDF", location:[-3.707097, 40.420501], company: "spartanbits", people:  [{name: 'pumpkin', image: 'https://si0.twimg.com/profile_images/1881877491/avatar_reasonably_small.jpg'}]},
-  {color: "#CF3", location:[-3.699185, 40.422424], company: "vizzuality", people:  [{name: 'johnhackworth', image: 'https://si0.twimg.com/profile_images/2460338539/814qnn0rrw7icdlcfdg7_reasonably_small.gif'}]},
+  {color: "#CF3", location:[-3.700429, 40.434691], company: "vizzuality", people:  [{name: 'johnhackworth', image: 'https://si0.twimg.com/profile_images/2460338539/814qnn0rrw7icdlcfdg7_reasonably_small.gif'}]},
   {color: "#FFF", location:[-3.692951, 40.409117], company: "fjord", people:  [{name: 'jorgecorrea', image: 'https://si0.twimg.com/profile_images/2255209386/avatar_fjord_reasonably_small.png'}]},
   {color: "#00F", location:[-3.696127, 40.415959], company: "tuenti", people:  [{name: 'ieduardogf', image: 'https://si0.twimg.com/profile_images/1614549841/image_reasonably_small.jpg'}]},
   {color: "#77F", location:[-3.707843, 40.423307], company: "funddy", people:  [{name: 'amartinj', image: 'https://si0.twimg.com/profile_images/1332873130/alex-snow_twitter_reasonably_small.png'},{name: 'mrrocks', image: 'https://si0.twimg.com/profile_images/2327871935/xzzuabgzz5ivkzxve76l_reasonably_small.png'},{name: 'keyvanakbary', image: 'https://si0.twimg.com/profile_images/2216189429/43d9c6fa-53d2-4332-b533-0946a4bc62a7_reasonably_small.png'}]},
