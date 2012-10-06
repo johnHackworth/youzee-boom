@@ -1,7 +1,7 @@
 body {
     font-family: 'Droid Sans', Helvetica, Verdana, Arial;
     background-color: #333;
-    margin:1em 0;
+    margin:0;
 }
 
 .header {
@@ -15,25 +15,38 @@ body {
     color: #EFEFEF;
 }
 
+.header h1 span {
+  color: #9C0;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  -webkit-transition: color 2s ease-in-out;
+  -moz-transition: color 2s ease-in-out;
+  -o-transition: color 2s ease-in-out;
+  transition: color 2s ease-in-out;
+}
+
 .header p {
   font-size: 18px;
 }
 
 #map {
-    height: 600px;
+    height: 400px;
     width: 100%;
     padding: 0;
     margin: 0;
 }
 
+#map .header {
+  display: none;
+}
+
 @media all and (min-width: 1000px) {
 #map {
-    height: 400px;
+    height: 300px;
   }
 }
 @media all and (min-width: 1250px) {
   #map {
-    height: 500px;
+    height: 400px;
   }
 }
 
@@ -124,7 +137,7 @@ body {
     width: 100px;
     display: inline-block;
     padding: 1em 0em 1em;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     opacity: 0.6;
     -webkit-transition: opacity 0.4s ease-in-out;
     -moz-transition: opacity 0.4s ease-in-out;
@@ -189,4 +202,52 @@ footer a {
   opacity: 1;
   text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
   color: #999;
+}
+
+.person img {
+    filter: grayscale(100%); /* Current draft standard */
+    -webkit-filter: grayscale(100%); /* New WebKit */
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+    filter: url(filters.svg#desaturate); /* Gecko */
+    filter: gray; /* IE */
+    -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+.person:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+ }
+
+
+article.description {
+    background-color: #333333;
+    border-radius: 25px 0 0 0;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 85px;
+    opacity: 0.95;
+    padding: 15px;
+    position: fixed;
+    right: 0px;
+    top: 415px;
+    width: 400px;
+}
+
+article.description h3 {
+  padding: 0;
+  margin: 0;
+  color: #9C9;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+article.description a {
+  color: #C99;
+}
+
+.leaflet-control-attribution {
+  display: none;
 }

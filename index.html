@@ -1,13 +1,20 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
+    <meta charset="UTF-8"/>
     <title>Youzee Boom</title>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.css" />
     <link rel="stylesheet" href="./css/light.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./vendors/tipsy/src/stylesheets/tipsy.css" />
   </head>
   <body>
+    <div class="header">
+      <h1>The <span>Youzee</span> Diaspora</h1>
+      <p>Youzee engineering & design team's new jobplaces, after the crash of 2012 summer. If someone else already has found a new position and I'm not aware of it, please tell me, you know where to find me! :)</p>
+    </div>
     <div id="map"></div>
     <div id="people"></div>
     <div class="info">
@@ -17,10 +24,13 @@
       Made by <a href="http://twitter.com/johnhackworth">@johnHackworth</a>, on a bored night.
       Powered by the awesomic <a href="http://cartodb.com">CartoDb</a>
     </footer>
+    <article class="description">
+        <h3></h3>
+        <span></span>
+    </article>
   </body>
 
   <script src="./vendors/cdb.min.js"></script>
+  <script src="./vendors/tipsy/src/javascripts/jquery.tipsy.js"></script>
   <script src="./src/app.js"></script>
-  <script>
-  </script>
 </html>
