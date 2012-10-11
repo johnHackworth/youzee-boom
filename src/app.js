@@ -21,6 +21,8 @@ var yz = {
     "#{{table_name}}[name='Fever'] {marker-fill:#222}" +
     "#{{table_name}}[name='Fjord'] {marker-fill:#FFF}" +
     "#{{table_name}}[name='Luckia'] {marker-fill:red}" +
+    "#{{table_name}}[name='Ideup'] {marker-fill:#CCC}" +
+    "#{{table_name}}[name='Wopp'] {marker-fill:orange}" +
     "#{{table_name}}::labels[name!='Youzee']  { "+
     "text-name:[name]; "+
     "text-face-name:@font_reg;"+
@@ -208,8 +210,11 @@ var companies = [
   {description: "Software is everywhere – on our computers, our watches, our refrigerators. And the teams building software together – developers, product managers, doc writers, bug-bashers – are our heroes. Atlassian products help teams of all sizes track and share everything, work smarter, and create better software together.",
     zoom: 11, color: "#59F", location:[151.2071, -33.8671], company: "atlassian", people:  [{name: 'scinos', image: 'https://si0.twimg.com/profile_images/1543714613/cinos_reasonably_small.png'}]},
   {description: "Fever changes the way people make plans and meet new people you are going to like. Fever helps you to decide where to go at all times in a more personalized way. It is the essential tool for going out and finding",
-    zoom: 12, color: "#666", location:[2.156142, 41.395306], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}]},
-  {zoom: 12, color: "red", location: [-3.6890140, 40.399752], company: "luckia", people: [{"name": "torgus_2punto0", "image": "https://si0.twimg.com/profile_images/1842033988/422483_10150610296423674_540863673_9097491_251344996_n_reasonably_small.jpg"}]}
+    zoom: 12, color: "#666", location:[2.156142, 41.395306], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}, {name: 'msurdi', image: 'https://si0.twimg.com/profile_images/2254785484/Homer_Simpson_Sideart_Homebrew_reasonably_small.jpg'}]},
+  {zoom: 12, color: "red", location: [-3.6890140, 40.399752], company: "luckia", people: [{"name": "torgus_2punto0", "image": "https://si0.twimg.com/profile_images/1842033988/422483_10150610296423674_540863673_9097491_251344996_n_reasonably_small.jpg"}]},
+  {zoom: 14, color: "orange", location: [-3.695912, 40.427055], company: "wopp", people: [{"name": "delr3ves", "image": "https://si0.twimg.com/profile_images/1179266820/_DSC0167_reasonably_small.jpg"}]},
+  {zoom: 11, color: "#CCC", location: [-3.893323, 40.539765], company: "ideup", people: [{"name": "LordCrisito", "image": "https://si0.twimg.com/profile_images/1209489204/Crisito2.gif"}]},
+
 ];
 
 window.vis = new Vis({el: $('#map')});
