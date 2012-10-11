@@ -216,7 +216,7 @@ var companies = [
   {description:"ideup! is a digital services agency with a result-oriented approach and based on constant investigation, without letting aside genuine creativity.",
    zoom: 11, color: "#CCC", location: [-3.893323, 40.539765], company: "ideup", people: [{"name": "LordCrisito", "image": "https://si0.twimg.com/profile_images/1209489204/Crisito2.gif"}]},
   {description: "Fever changes the way people make plans and meet new people you are going to like. Fever helps you to decide where to go at all times in a more personalized way. It is the essential tool for going out and finding",
-    zoom: 12, color: "#666", location:[-3.683993, 40.423625], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}, {name: 'msurdi', image: 'https://si0.twimg.com/profile_images/2254785484/Homer_Simpson_Sideart_Homebrew_reasonably_small.jpg'}]},
+    zoom: 14, color: "#666", location:[-3.683993, 40.423625], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}, {name: 'msurdi', image: 'https://si0.twimg.com/profile_images/2254785484/Homer_Simpson_Sideart_Homebrew_reasonably_small.jpg'}]},
 
 ];
 
