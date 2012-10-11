@@ -131,7 +131,8 @@ var yz = {
       var zoomLevel = $element.data('zoom');
       var name = $element.data('company');
       yz.vis.map.setCenter(position.reverse());
-      yz.setZoom(yz.currentZoom, zoomLevel);
+      vis.map.setZoom(zoomLevel);
+      // yz.setZoom(yz.currentZoom, zoomLevel);
       var company = yz.getCompany(name);
       if(company.description) {
         $('article.description').fadeIn();
@@ -198,7 +199,7 @@ var companies = [
   {description: "Yunait is a deal aggregator. It's the one stop place that groups the best deals and organizes them, giving the users the power to decide the kind of offers they will see depending on their tastes and interests.",
     zoom: 14, color: "yellow", location:[-3.692404, 40.428264], company: 'yunait', people: [{name: 'leidan', image: 'https://si0.twimg.com/profile_images/1131270006/Avatar2010_medium_reasonably_small.jpg'}]},
   {description: "Spartanbits is more than creating value through apps. It’s about creating an emotional bond with the user; it’s about delivering love to everyone, from our employees to the people that use our apps every day",
-    zoom: 17, color: "#FFDFDF", location:[-3.707097, 40.420501], company: "spartanbits", people:  [{name: 'pumpkin', image: 'https://si0.twimg.com/profile_images/1881877491/avatar_reasonably_small.jpg'}]},
+    zoom: 15, color: "#FFDFDF", location:[-3.707097, 40.420501], company: "spartanbits", people:  [{name: 'pumpkin', image: 'https://si0.twimg.com/profile_images/1881877491/avatar_reasonably_small.jpg'}]},
   {description:"Trying to make the world better since 2007! Vizzuality take enjoyment in being a small and productive company that delivers great user experiences for stories that matter. In this time they have worked with some of the biggest conservation organizations, NASA, Google, and others! And they have a <a href='http://pics.lockerz.com/s/250525221' target='_blank'>fucking</a> <a href='https://twitter.com/i/#!/demimismo/media/slideshow?url=http%3A%2F%2Finstagr.am%2Fp%2FQVBgCYQbEv%2F' target='_blank'>great</a> <a href='https://twitter.com/JohnHackworth/status/252747260302094336/photo/1' target='_blank'>office</a> :D",
     zoom: 14, color: "#CF3", location:[-3.700429, 40.4346914], company: "vizzuality", people:  [{name: 'johnhackworth', image: 'https://si0.twimg.com/profile_images/2460338539/814qnn0rrw7icdlcfdg7_reasonably_small.gif'}]},
   {description: "Fjord Spain opened in Madrid in late 2009 as a response to strong client demand and today we're already captivating leading brands like Telefonica and BBVA with our elegant, simple designs.",
@@ -206,12 +207,12 @@ var companies = [
   {description: "Tuenti is a social communication platform for web and mobile, and there’s plenty to be said about our company",
     zoom: 13, color: "#00F", location:[-3.696127, 40.415959], company: "tuenti", people:  [{name: 'ieduardogf', image: 'https://si0.twimg.com/profile_images/1614549841/image_reasonably_small.jpg'}]},
   {description: "Funddy is a service that makes easy to collect money to achieve everything you want",
-    zoom: 17, color: "#77F", location:[-3.707843, 40.423307], company: "funddy", people:  [{name: 'amartinj', image: 'https://si0.twimg.com/profile_images/1332873130/alex-snow_twitter_reasonably_small.png'},{name: 'mrrocks', image: 'https://si0.twimg.com/profile_images/2327871935/xzzuabgzz5ivkzxve76l_reasonably_small.png'},{name: 'keyvanakbary', image: 'https://si0.twimg.com/profile_images/2216189429/43d9c6fa-53d2-4332-b533-0946a4bc62a7_reasonably_small.png'}]},
+    zoom: 15, color: "#77F", location:[-3.707843, 40.423307], company: "funddy", people:  [{name: 'amartinj', image: 'https://si0.twimg.com/profile_images/1332873130/alex-snow_twitter_reasonably_small.png'},{name: 'mrrocks', image: 'https://si0.twimg.com/profile_images/2327871935/xzzuabgzz5ivkzxve76l_reasonably_small.png'},{name: 'keyvanakbary', image: 'https://si0.twimg.com/profile_images/2216189429/43d9c6fa-53d2-4332-b533-0946a4bc62a7_reasonably_small.png'}]},
   {description: "Software is everywhere – on our computers, our watches, our refrigerators. And the teams building software together – developers, product managers, doc writers, bug-bashers – are our heroes. Atlassian products help teams of all sizes track and share everything, work smarter, and create better software together.",
     zoom: 11, color: "#59F", location:[151.2071, -33.8671], company: "atlassian", people:  [{name: 'scinos', image: 'https://si0.twimg.com/profile_images/1543714613/cinos_reasonably_small.png'}]},
   {zoom: 12, color: "red", location: [-3.6890140, 40.399752], company: "luckia", people: [{"name": "torgus_2punto0", "image": "https://si0.twimg.com/profile_images/1842033988/422483_10150610296423674_540863673_9097491_251344996_n_reasonably_small.jpg"}]},
   {description:"WOPP is at the same time a means of communication, a social network and a nano-content channel.",
-   zoom: 14, color: "orange", location: [-3.695912, 40.427055], company: "wopp", people: [{"name": "delr3ves", "image": "https://si0.twimg.com/profile_images/1179266820/_DSC0167_reasonably_small.jpg"}]},
+   zoom: 15, color: "orange", location: [-3.695912, 40.427055], company: "wopp", people: [{"name": "delr3ves", "image": "https://si0.twimg.com/profile_images/1179266820/_DSC0167_reasonably_small.jpg"}]},
   {description:"ideup! is a digital services agency with a result-oriented approach and based on constant investigation, without letting aside genuine creativity.",
    zoom: 11, color: "#CCC", location: [-3.893323, 40.539765], company: "ideup", people: [{"name": "LordCrisito", "image": "https://si0.twimg.com/profile_images/1209489204/Crisito2.gif"}]},
   {description: "Fever changes the way people make plans and meet new people you are going to like. Fever helps you to decide where to go at all times in a more personalized way. It is the essential tool for going out and finding",
