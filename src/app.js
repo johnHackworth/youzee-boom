@@ -209,11 +209,13 @@ var companies = [
     zoom: 17, color: "#77F", location:[-3.707843, 40.423307], company: "funddy", people:  [{name: 'amartinj', image: 'https://si0.twimg.com/profile_images/1332873130/alex-snow_twitter_reasonably_small.png'},{name: 'mrrocks', image: 'https://si0.twimg.com/profile_images/2327871935/xzzuabgzz5ivkzxve76l_reasonably_small.png'},{name: 'keyvanakbary', image: 'https://si0.twimg.com/profile_images/2216189429/43d9c6fa-53d2-4332-b533-0946a4bc62a7_reasonably_small.png'}]},
   {description: "Software is everywhere – on our computers, our watches, our refrigerators. And the teams building software together – developers, product managers, doc writers, bug-bashers – are our heroes. Atlassian products help teams of all sizes track and share everything, work smarter, and create better software together.",
     zoom: 11, color: "#59F", location:[151.2071, -33.8671], company: "atlassian", people:  [{name: 'scinos', image: 'https://si0.twimg.com/profile_images/1543714613/cinos_reasonably_small.png'}]},
-  {description: "Fever changes the way people make plans and meet new people you are going to like. Fever helps you to decide where to go at all times in a more personalized way. It is the essential tool for going out and finding",
-    zoom: 12, color: "#666", location:[2.156142, 41.395306], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}, {name: 'msurdi', image: 'https://si0.twimg.com/profile_images/2254785484/Homer_Simpson_Sideart_Homebrew_reasonably_small.jpg'}]},
   {zoom: 12, color: "red", location: [-3.6890140, 40.399752], company: "luckia", people: [{"name": "torgus_2punto0", "image": "https://si0.twimg.com/profile_images/1842033988/422483_10150610296423674_540863673_9097491_251344996_n_reasonably_small.jpg"}]},
-  {zoom: 14, color: "orange", location: [-3.695912, 40.427055], company: "wopp", people: [{"name": "delr3ves", "image": "https://si0.twimg.com/profile_images/1179266820/_DSC0167_reasonably_small.jpg"}]},
-  {zoom: 11, color: "#CCC", location: [-3.893323, 40.539765], company: "ideup", people: [{"name": "LordCrisito", "image": "https://si0.twimg.com/profile_images/1209489204/Crisito2.gif"}]},
+  {description:"WOPP is at the same time a means of communication, a social network and a nano-content channel.",
+   zoom: 14, color: "orange", location: [-3.695912, 40.427055], company: "wopp", people: [{"name": "delr3ves", "image": "https://si0.twimg.com/profile_images/1179266820/_DSC0167_reasonably_small.jpg"}]},
+  {description:"ideup! is a digital services agency with a result-oriented approach and based on constant investigation, without letting aside genuine creativity.",
+   zoom: 11, color: "#CCC", location: [-3.893323, 40.539765], company: "ideup", people: [{"name": "LordCrisito", "image": "https://si0.twimg.com/profile_images/1209489204/Crisito2.gif"}]},
+  {description: "Fever changes the way people make plans and meet new people you are going to like. Fever helps you to decide where to go at all times in a more personalized way. It is the essential tool for going out and finding",
+    zoom: 12, color: "#666", location:[-3.683993, 40.423625], company: "fever", people:  [{name: 'sruiz', image: 'https://si0.twimg.com/profile_images/2235866660/SR_twitter.png'}, {name: 'msurdi', image: 'https://si0.twimg.com/profile_images/2254785484/Homer_Simpson_Sideart_Homebrew_reasonably_small.jpg'}]},
 
 ];
 

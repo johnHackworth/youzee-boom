@@ -175,7 +175,7 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 5px;
     right:15px;
     font-size: 11px;
@@ -228,16 +228,16 @@ footer a {
 
 article.description {
     background-color: #333333;
-    border-radius: 25px 0 0 0;
+    border-radius: 14px 0 0 14px;
     color: #FFFFFF;
     display: none;
     font-size: 11px;
     height: 85px;
-    opacity: 0.95;
+    opacity: 0.65;
     padding: 15px;
-    position: fixed;
+    position: absolute;
     right: 0px;
-    top: 415px;
+    top: 160px;
     width: 400px;
 }
 
