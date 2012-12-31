@@ -64,7 +64,7 @@ var yz = {
     type: 'tilejson',
     version: '1.0.0',
     tiles: [
-      'http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets/{z}/{x}/{y}.png'
+        'https://dnv9my2eseobd.cloudfront.net/v3/cartodb.map-4xtxp73f/{z}/{x}/{y}.png'
     ]
   },
   mapConfig: {
